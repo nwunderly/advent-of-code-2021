@@ -7,12 +7,13 @@ Number of times an increase occurs between 3-measurement groups.
 from part1 import load_input
 
 
+groups_of = 3
+
+
 def main():
     vals = load_input()
     last_val = None
     increase_count = 0
-
-    groups_of = 3
 
     for i in range(len(vals)-(groups_of-1)):
         group = vals[i:i+groups_of]

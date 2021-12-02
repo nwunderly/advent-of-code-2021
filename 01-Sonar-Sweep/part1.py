@@ -5,7 +5,7 @@ Number of times an increase occurs between measurements.
 """
 
 def load_input():
-    """Load the input file and return a list of integers."""
+    """Load the input file."""
     with open('input.txt', 'r') as fp:
         return [int(line.strip()) for line in fp]
 
