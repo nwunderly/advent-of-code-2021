@@ -1,5 +1,7 @@
 """
-AOC Day 2 Part 1 - https://adventofcode.com/2021/day/2
+AOC Day 2 Part 2 - https://adventofcode.com/2021/day/2#part2
+
+Tracking submarine state based on instructions (more complex motion)
 """
 
 from part1 import load_input

@@ -1,5 +1,7 @@
 """
 AOC Day 2 Part 1 - https://adventofcode.com/2021/day/2
+
+Tracking submarine position based on instructions.
 """
 
 def load_input():
